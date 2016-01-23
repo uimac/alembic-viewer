@@ -1,0 +1,29 @@
+{
+	"name": "alembic-viewer",
+	"version": "0.0.1",
+	"description": "alembic (.abc) viewer",
+	"main": "main.js",
+	"author": "Kazuma Hatta",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/uimac/alembic-viewer.git"
+	},
+	"keywords": [
+		"alembic",
+		"geometry cache",
+		"webgl",
+		"electron"
+	],
+	"homepage": "https://github.com/uimac/alembic-viewer",
+	"os" : [ "win32", "darwin" ],
+	"cpu" : [ "x64" ],
+	"private": false,
+	"dependencies": {
+		"electron-prebuilt" : ">= 0.36.4",
+		"alembic" : "*"
+	},
+	"scripts" : {
+		"start" : "electron ."
+	}
+}
